@@ -52,6 +52,7 @@ class Main extends egret.DisplayObjectContainer {
 
     //通过触摸移动显示对象
     private moveObjectByTouch(): void {
+        var draggedObject:egret.Shape;
         var offsetX: number;
         var offsetY: number;
 
@@ -66,8 +67,12 @@ class Main extends egret.DisplayObjectContainer {
         circle.addEventListener(egret.TouchEvent.TOUCH_END, stopMove, this);
 
         function startMove(e: egret.TouchEvent): void {
+            //记录手指按到的对象
+            draggedObject = e.currentTarget;
             offsetX = e.stageX - circle.x;
             offsetY = e.stageY - circle.y;
+            //将触摸的对象置于容器顶层
+            this.addChild(draggedObject);
             this.stage.addEventListener(egret.TouchEvent.TOUCH_MOVE, onMove, this);
         }
         function stopMove(e: egret.TouchEvent): void {
@@ -75,8 +80,8 @@ class Main extends egret.DisplayObjectContainer {
             this.stage.removeEventListener(egret.TouchEvent.TOUCH_MOVE,onMove,this);
          }
         function onMove(e: egret.TouchEvent): void {
-            circle.x = e.stageX - offsetX;
-            circle.y = e.stageY - offsetY;
+            draggedObject.x = e.stageX - offsetX;
+            draggedObject.y = e.stageY - offsetY;
         }
     }
 }
