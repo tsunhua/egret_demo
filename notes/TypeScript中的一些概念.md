@@ -74,6 +74,7 @@ type K3 = keyof{[x:string]:Person} // string
 
 ```typescript
 type P = Person['name']; // string
+
 function getProperty<T, K extends keyof T>(obj:T,key:K){
   return obj[key];//推断类型为T[K];
 }
