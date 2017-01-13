@@ -1,11 +1,11 @@
 /// 创建自己的显示对象类
-var MyGrid = (function (_super) {
-    __extends(MyGrid, _super);
-    function MyGrid() {
+var CMyGrid = (function (_super) {
+    __extends(CMyGrid, _super);
+    function CMyGrid() {
         _super.call(this);
         this.drawGrid();
     }
-    var d = __define,c=MyGrid,p=c.prototype;
+    var d = __define,c=CMyGrid,p=c.prototype;
     p.drawGrid = function () {
         //指定填充色开始填充
         this.graphics.beginFill(0x000ff);
@@ -23,7 +23,7 @@ var MyGrid = (function (_super) {
         this.graphics.drawRect(0, 50, 50, 50);
         this.graphics.endFill();
     };
-    return MyGrid;
+    return CMyGrid;
 }(egret.Shape));
-egret.registerClass(MyGrid,'MyGrid');
-//# sourceMappingURL=MyGrid.js.map
+egret.registerClass(CMyGrid,'CMyGrid');
+//# sourceMappingURL=CMyGrid.js.map

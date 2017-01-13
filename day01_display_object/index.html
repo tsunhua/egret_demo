@@ -36,16 +36,17 @@
 
     <!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
     <!--game_files_start-->
-	<script egret="game" src="bin-debug/LoadingUI.js"></script>
-	<script egret="game" src="bin-debug/Main.1.js"></script>
-	<script egret="game" src="bin-debug/Main.js"></script>
-	<script egret="game" src="bin-debug/MyGrid.js"></script>
+	<script egret="game" src="bin-debug/CMyGrid.js"></script>
+	<script egret="game" src="bin-debug/CMyObject.js"></script>
+	<script egret="game" src="bin-debug/DAnchor.js"></script>
+	<script egret="game" src="bin-debug/EPosition.js"></script>
+	<script egret="game" src="bin-debug/FTranslation.js"></script>
 	<!--game_files_end-->
 </head>
 <body>
 
     <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
-         data-entry-class="Main"
+         data-entry-class="FTranslation"
          data-orientation="auto"
          data-scale-mode="showAll"
          data-frame-rate="30"

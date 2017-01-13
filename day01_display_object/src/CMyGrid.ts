@@ -1,5 +1,5 @@
 /// 创建自己的显示对象类
-class MyGrid extends egret.Shape {
+class CMyGrid extends egret.Shape {
 	public constructor() {
 		super();
 		this.drawGrid();

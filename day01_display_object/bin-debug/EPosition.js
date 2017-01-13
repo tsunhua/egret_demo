@@ -1,23 +1,12 @@
-var Main = (function (_super) {
-    __extends(Main, _super);
-    function Main() {
+var EPosition = (function (_super) {
+    __extends(EPosition, _super);
+    function EPosition() {
         _super.call(this);
         //当ADDED_TO_STAGE事件发生时，执行onAddToStage方法
         this.addEventListener(egret.Event.ADDED_TO_STAGE, this.onAddToStage, this);
     }
-    var d = __define,c=Main,p=c.prototype;
+    var d = __define,c=EPosition,p=c.prototype;
     p.onAddToStage = function (event) {
-        var shp = new egret.Shape();
-        shp.graphics.beginFill(0x00ff00);
-        shp.graphics.drawRect(0, 0, 100, 100);
-        shp.graphics.endFill();
-        //改变矩形的位置（左上角顶点）
-        shp.x = 100;
-        shp.y = 100;
-        //修改锚点的位置
-        shp.anchorOffsetX = 50;
-        shp.anchorOffsetY = 50;
-        this.addChild(shp);
         // this.changePosition();
         this.moveObjectByTouch();
     };
@@ -44,6 +33,7 @@ var Main = (function (_super) {
     };
     //通过触摸移动显示对象
     p.moveObjectByTouch = function () {
+        var _this = this;
         var draggedObject;
         var offsetX;
         var offsetY;
@@ -53,17 +43,17 @@ var Main = (function (_super) {
         circle.graphics.endFill();
         this.addChild(circle);
         circle.touchEnabled = true;
-        circle.addEventListener(egret.TouchEvent.TOUCH_BEGIN, startMove, this);
-        circle.addEventListener(egret.TouchEvent.TOUCH_END, stopMove, this);
-        function startMove(e) {
+        // circle.addEventListener(egret.TouchEvent.TOUCH_BEGIN, startMove, this);
+        circle.addEventListener(egret.TouchEvent.TOUCH_BEGIN, function (e) {
             //记录手指按到的对象
             draggedObject = e.currentTarget;
             offsetX = e.stageX - circle.x;
             offsetY = e.stageY - circle.y;
             //将触摸的对象置于容器顶层
-            this.addChild(draggedObject);
-            this.stage.addEventListener(egret.TouchEvent.TOUCH_MOVE, onMove, this);
-        }
+            _this.addChild(draggedObject);
+            _this.stage.addEventListener(egret.TouchEvent.TOUCH_MOVE, onMove, _this);
+        }, this);
+        circle.addEventListener(egret.TouchEvent.TOUCH_END, stopMove, this);
         function stopMove(e) {
             console.log("stopMove");
             this.stage.removeEventListener(egret.TouchEvent.TOUCH_MOVE, onMove, this);
@@ -73,7 +63,7 @@ var Main = (function (_super) {
             draggedObject.y = e.stageY - offsetY;
         }
     };
-    return Main;
+    return EPosition;
 }(egret.DisplayObjectContainer));
-egret.registerClass(Main,'Main');
-//# sourceMappingURL=Main.js.map
+egret.registerClass(EPosition,'EPosition');
+//# sourceMappingURL=EPosition.js.map
