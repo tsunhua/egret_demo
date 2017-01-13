@@ -80,6 +80,24 @@ function getProperty<T, K extends keyof T>(obj:T,key:K){
 }
 ```
 
+#### Partial、Readonly
+
+保持类型相同，但每个类型都是可选的
+
+```typescript
+type Partial<T>={
+  [P in keyof T]?:T[P];
+}
+```
+
+保持类型相同，但每个属性都是只读的
+
+```typescript
+type Readonly<T>={
+  readonly [P in keyof T]:T[P];
+}
+```
+
 
 
 
