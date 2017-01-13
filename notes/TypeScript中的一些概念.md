@@ -9,7 +9,7 @@ TypeScript通过类型批注提供静态类型以在编译时启动类型检查�
 
 书写示例：
 
-```javascript
+```typescript
 let x:number = 2;
 function add(x:number,y:number):number{
   return x + y;
@@ -20,7 +20,7 @@ function add(x:number,y:number):number{
 
 表示一个值的类型可为多种类型之一。
 
-```javascript
+```typescript
 //表示commanline的类型可为字符串数组、字符串或者任意返回值为字符串的function
 var commandline:string[]|string|(()=>string);
 ```
