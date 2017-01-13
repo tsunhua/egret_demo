@@ -53,6 +53,34 @@ interface Point{
 }
 ```
 
+#### keyof 和查找类型
+
+`keyof `输入索引类型查询
+
+`keyof T` 是T的属性名称，是string的子类型
+
+```typescript
+interface Person{
+  name:string;
+  age:string;
+  location:string;
+}
+type K1 = keyof Person; // "name" | "age" | "location"
+type K2 = keyof Person[]; // "lenght" | "push" | ...
+type K3 = keyof{[x:string]:Person} // string
+```
+
+查找类型：索引访问类型，像元素访问但写成类型
+
+```typescript
+type P = Person['name']; // string
+function getProperty<T, K extends keyof T>(obj:T,key:K){
+  return obj[key];//推断类型为T[K];
+}
+```
+
+
+
 
 
 
