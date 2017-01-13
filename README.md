@@ -12,6 +12,7 @@ TypeScript 和 JavaScript相关学习资源
 - [TypeScript 和 JavaScript 的区别？ -- 知乎](https://www.zhihu.com/question/25421196)
 - [TypeScript Handbook（中文版）-- gitbooks](https://zhongsp.gitbooks.io/typescript-handbook/content/)
 - [JavaScript教程 -- 廖雪峰的官方网站](http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000) 
+- [ECMAScript 6 入门 -- 阮一峰](http://es6.ruanyifeng.com/)
 - [使用 AMD、CommonJS 及 ES Harmony 编写模块化的 JavaScript](http://justineo.github.io/singles/writing-modular-js/)
 - [Visual Studio Code之常备快捷键 --CSDN](http://blog.csdn.net/u010019717/article/details/50443970)
 
