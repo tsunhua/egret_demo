@@ -13,6 +13,9 @@ var game_file_list = [
 	"bin-debug/DAnchor.js",
 	"bin-debug/EPosition.js",
 	"bin-debug/FTranslation.js",
+	"bin-debug/GDimmensionAndScale.js",
+	"bin-debug/HRotation.js",
+	"bin-debug/IBevell.js",
 	//----auto game_file_list end----
 ];
 
@@ -45,7 +48,7 @@ egret_native.egretStart = function () {
     var option = {
         //以下为自动修改，请勿修改
         //----auto option start----
-		entryClassName: "FTranslation",
+		entryClassName: "IBevell",
 		frameRate: 30,
 		scaleMode: "showAll",
 		contentWidth: 640,

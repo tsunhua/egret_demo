@@ -11,6 +11,7 @@ var FTranslation = (function (_super) {
         bigText.scrollRect = new egret.Rectangle(0, 0, 200, 50);
         bigText.cacheAsBitmap = true;
         this.addChild(bigText);
+        //附赠：触摸文本内容进行滚动
         bigText.touchEnabled = true;
         var lastX = 0;
         bigText.addEventListener(egret.TouchEvent.TOUCH_BEGIN, function (e) {
