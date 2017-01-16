@@ -1,4 +1,4 @@
-学习路线
+我的学习轨迹
 --------
 
 - [x] 第一天：掌握TypeScript的独有概念，掌握[Egret Engine 2D # 显示对象部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/displayObject/visualProgram/index.html)
@@ -27,6 +27,7 @@ TypeScript 和 JavaScript相关学习资源
 --------
 
 - [Egret Engine 2D Get Started  -- egret.com](http://developer.egret.com/cn/github/egret-docs/Engine2D/getStarted/helloWorld/index.html)
+- [Egret 扩展库](http://developer.egret.com/cn/github/egret-docs/extension/threes/instructions/index.html)
 
 
 
