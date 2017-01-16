@@ -9,6 +9,7 @@ var game_file_list = [
 	"libs/modules/res/res.js",
 	"libs/modules/tween/tween.js",
 	"bin-debug/ARectShade.js",
+	"bin-debug/BDisplayObjectMask.js",
 	//----auto game_file_list end----
 ];
 
@@ -41,7 +42,7 @@ egret_native.egretStart = function () {
     var option = {
         //以下为自动修改，请勿修改
         //----auto option start----
-		entryClassName: "ARectShade",
+		entryClassName: "BDisplayObjectMask",
 		frameRate: 30,
 		scaleMode: "showAll",
 		contentWidth: 640,

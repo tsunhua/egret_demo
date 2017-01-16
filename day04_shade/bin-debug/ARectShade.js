@@ -18,8 +18,8 @@ var ARectShade = (function (_super) {
         this.addChild(shp2);
         shp2.x = 20;
         shp2.y = 20;
-        // var rect: egret.Rectangle = new egret.Rectangle(20, 20, 30, 50);
-        // shp.mask = rect;
+        var rect = new egret.Rectangle(20, 20, 30, 50);
+        shp.mask = rect;
     };
     return ARectShade;
 }(egret.DisplayObjectContainer));

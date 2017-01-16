@@ -4,7 +4,7 @@
 - [x] 第一天：掌握TypeScript的独有概念，掌握[Egret Engine 2D # 显示对象部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/displayObject/visualProgram/index.html)内容
 - [x] 第二天：掌握[Egret Engine 2D # 显示容器部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/displayObjecContainer/concept/index.html)
 - [x] 第三天：掌握[Egret Engine 2D #矢量绘图部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/vectorDrawing/useVectorDrawing/index.html)
-- [ ] 第四天：掌握[Egret Engine 2D #遮罩部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/mask/rectangleMask/index.html)
+- [x] 第四天：掌握[Egret Engine 2D #遮罩部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/mask/rectangleMask/index.html)
 
 
 
