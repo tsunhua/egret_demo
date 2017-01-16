@@ -6,8 +6,7 @@
 - [x] 第三天：掌握[Egret Engine 2D #矢量绘图部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/vectorDrawing/useVectorDrawing/index.html)
 - [x] 第四天：掌握[Egret Engine 2D #遮罩部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/mask/rectangleMask/index.html)
 - [x] 第五天：掌握[Egret Engine 2D #碰撞检测部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/hit/inexactHit/index.html)
-- [ ] 第六天：掌握[Egret Engine 2D #文本部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/textField/createText/index.html)
-
+- [x] 第六天：掌握[Egret Engine 2D #文本部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/textField/createText/index.html)
 
 
 TypeScript 和 JavaScript相关学习资源
@@ -19,6 +18,7 @@ TypeScript 和 JavaScript相关学习资源
 - [ECMAScript 6 入门 -- 阮一峰](http://es6.ruanyifeng.com/)
 - [使用 AMD、CommonJS 及 ES Harmony 编写模块化的 JavaScript](http://justineo.github.io/singles/writing-modular-js/)
 - [Visual Studio Code之常备快捷键 --CSDN](http://blog.csdn.net/u010019717/article/details/50443970)
+- [Egret Wing编辑器快捷键](http://developer.egret.com/cn/github/egret-docs/Wing/editor/code/index.html)
 
 
 
