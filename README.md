@@ -10,7 +10,7 @@
 - [x] 第八天：掌握[Egret Engine 2D #网络部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/net/sendHTTP/index.html)
 - [x] 第九天：掌握[Egret Engine 2D #位图纹理部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/bitmapTexture/creatBitmap/index.html)
 - [x] 第十天：掌握[Egret Engine 2D #混合模式部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/blendMode/normal/index.html)
-- [ ] 第十一天：掌握[Egret Engine 2D #滤镜部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/filter/glowFilter/index.html)
+- [x] 第十一天：掌握[Egret Engine 2D #滤镜部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/filter/glowFilter/index.html)
 
 TypeScript 和 JavaScript学习站
 --------
