@@ -8,7 +8,7 @@ var game_file_list = [
 	"libs/modules/game/game.native.js",
 	"libs/modules/res/res.js",
 	"libs/modules/tween/tween.js",
-	"bin-debug/Test.js",
+	"bin-debug/AMixedMode.js",
 	//----auto game_file_list end----
 ];
 
@@ -41,7 +41,7 @@ egret_native.egretStart = function () {
     var option = {
         //以下为自动修改，请勿修改
         //----auto option start----
-		entryClassName: "Main",
+		entryClassName: "AMixedMode",
 		frameRate: 30,
 		scaleMode: "showAll",
 		contentWidth: 640,
