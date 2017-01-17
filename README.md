@@ -8,6 +8,7 @@
 - [x] 第五天：掌握[Egret Engine 2D #碰撞检测部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/hit/inexactHit/index.html)
 - [x] 第六天：掌握[Egret Engine 2D #文本部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/textField/createText/index.html)
 - [x] 第八天：掌握[Egret Engine 2D #网络部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/net/sendHTTP/index.html)
+- [ ] 第九天：掌握[Egret Engine 2D #位图纹理部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/bitmapTexture/creatBitmap/index.html)
 
 TypeScript 和 JavaScript相关学习资源
 --------
