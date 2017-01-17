@@ -8,6 +8,11 @@ var game_file_list = [
 	"libs/modules/game/game.native.js",
 	"libs/modules/res/res.js",
 	"libs/modules/tween/tween.js",
+	"bin-debug/ACreateBitmap.js",
+	"bin-debug/BNinePatch.js",
+	"bin-debug/CTextureFillStyle.js",
+	"bin-debug/DTextureCollection.js",
+	"bin-debug/EScreenShot.js",
 	"bin-debug/Test.js",
 	//----auto game_file_list end----
 ];
@@ -41,7 +46,7 @@ egret_native.egretStart = function () {
     var option = {
         //以下为自动修改，请勿修改
         //----auto option start----
-		entryClassName: "Main",
+		entryClassName: "EScreenShot",
 		frameRate: 30,
 		scaleMode: "showAll",
 		contentWidth: 640,

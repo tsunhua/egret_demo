@@ -10,3 +10,4 @@ var Test = (function (_super) {
     return Test;
 }(egret.DisplayObjectContainer));
 egret.registerClass(Test,'Test');
+//# sourceMappingURL=Test.js.map

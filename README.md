@@ -8,9 +8,9 @@
 - [x] 第五天：掌握[Egret Engine 2D #碰撞检测部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/hit/inexactHit/index.html)
 - [x] 第六天：掌握[Egret Engine 2D #文本部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/textField/createText/index.html)
 - [x] 第八天：掌握[Egret Engine 2D #网络部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/net/sendHTTP/index.html)
-- [ ] 第九天：掌握[Egret Engine 2D #位图纹理部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/bitmapTexture/creatBitmap/index.html)
+- [x] 第九天：掌握[Egret Engine 2D #位图纹理部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/bitmapTexture/creatBitmap/index.html)
 
-TypeScript 和 JavaScript相关学习资源
+TypeScript 和 JavaScript学习站
 --------
 
 - [TypeScript 和 JavaScript 的区别？ -- 知乎](https://www.zhihu.com/question/25421196)
@@ -23,13 +23,25 @@ TypeScript 和 JavaScript相关学习资源
 
 
 
-白鹭引擎相关学习资源
+白鹭引擎学习站
 --------
 
 - [Egret Engine 2D Get Started  -- egret.com](http://developer.egret.com/cn/github/egret-docs/Engine2D/getStarted/helloWorld/index.html)
 - [Egret 扩展库](http://developer.egret.com/cn/github/egret-docs/extension/threes/instructions/index.html)
 - [教学示例 --白鹭开发者中心](http://developer.egret.com/cn/example/egret2d/index.html#010-disp-basic)
 
+开发工具
+-------
+- [Texture Merger](http://developer.egret.com/cn/github/egret-docs/tools/TextureMerger/manual/index.html)
+  Texture Merger 可将零散纹理拼合为整图，同时也可以解析SWF、GIF动画，导出可供Egret使用的配置文件。
+
+- [Egret Wing 4.0.0](http://developer.egret.com/cn/github/egret-docs/Wing/update/update400/index.html)
+
+  EgretWing是Egret团队基于VSCode开发的编辑器
+
+- [VS Code](https://code.visualstudio.com/)
+
+  微软开源的支持多种编程语言的轻量级代码编辑器
 
 
 License
