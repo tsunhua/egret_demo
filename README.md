@@ -1,17 +1,18 @@
 我的学习轨迹
 --------
 
-- [x] 第一天：掌握TypeScript的独有概念，掌握[Egret Engine 2D # 显示对象部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/displayObject/visualProgram/index.html)
-- [x] 第二天：掌握[Egret Engine 2D # 显示容器部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/displayObjecContainer/concept/index.html)
-- [x] 第三天：掌握[Egret Engine 2D #矢量绘图部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/vectorDrawing/useVectorDrawing/index.html)
-- [x] 第四天：掌握[Egret Engine 2D #遮罩部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/mask/rectangleMask/index.html)
-- [x] 第五天：掌握[Egret Engine 2D #碰撞检测部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/hit/inexactHit/index.html)
-- [x] 第六天：掌握[Egret Engine 2D #文本部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/textField/createText/index.html)
-- [x] 第八天：掌握[Egret Engine 2D #网络部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/net/sendHTTP/index.html)
-- [x] 第九天：掌握[Egret Engine 2D #位图纹理部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/bitmapTexture/creatBitmap/index.html)
-- [x] 第十天：掌握[Egret Engine 2D #混合模式部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/blendMode/normal/index.html)
-- [x] 第十一天：掌握[Egret Engine 2D #滤镜部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/filter/glowFilter/index.html)
-- [ ] 第十二天：掌握[Egret Engine 2D #时间控制](http://developer.egret.com/cn/github/egret-docs/Engine2D/timeControl/timer/index.html)
+- [x] 第一天：掌握TypeScript的独有概念，掌握[Egret Engine 2D # 显示对象部分](https://github.com/LinLshare/egret_demo/tree/master/day01_display_object/src)
+- [x] 第二天：掌握[Egret Engine 2D # 显示容器部分](https://github.com/LinLshare/egret_demo/tree/master/day02_display_container/src)
+- [x] 第三天：掌握[Egret Engine 2D #矢量绘图部分](https://github.com/LinLshare/egret_demo/tree/master/day03_vector_drawing/src)
+- [x] 第四天：掌握[Egret Engine 2D #遮罩部分](https://github.com/LinLshare/egret_demo/tree/master/day04_shade/src)
+- [x] 第五天：掌握[Egret Engine 2D #碰撞检测部分](https://github.com/LinLshare/egret_demo/tree/master/day05_collision_detection/src)
+- [x] 第六天：掌握[Egret Engine 2D #文本部分](https://github.com/LinLshare/egret_demo/tree/master/day06_text/src)
+- [x] 第七天：掌握[Egret Engin 2D #事件机制部分](https://github.com/LinLshare/egret_demo/tree/master/day07_event_mechanism/src)
+- [x] 第八天：掌握[Egret Engine 2D #网络部分](https://github.com/LinLshare/egret_demo/tree/master/day08_network/src)
+- [x] 第九天：掌握[Egret Engine 2D #位图纹理部分](https://github.com/LinLshare/egret_demo/tree/master/day09_bitmap_texture/src)
+- [x] 第十天：掌握[Egret Engine 2D #混合模式部分](https://github.com/LinLshare/egret_demo/tree/master/day10_mixed_mode/src)
+- [x] 第十一天：掌握[Egret Engine 2D #滤镜部分](https://github.com/LinLshare/egret_demo/tree/master/day11_filter_effect/src)
+- [ ] 第十二天：掌握[Egret Engine 2D #时间控制](https://github.com/LinLshare/egret_demo/tree/master/day12_time_controll/src)
 
 TypeScript 和 JavaScript学习站
 --------
