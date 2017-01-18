@@ -1,0 +1,4 @@
+class ATimer {
+	public constructor() {
+	}
+}
