@@ -12,7 +12,8 @@
 - [x] 第九天：掌握[Egret Engine 2D #位图纹理部分](https://github.com/LinLshare/egret_demo/tree/master/day09_bitmap_texture/src)
 - [x] 第十天：掌握[Egret Engine 2D #混合模式部分](https://github.com/LinLshare/egret_demo/tree/master/day10_mixed_mode/src)
 - [x] 第十一天：掌握[Egret Engine 2D #滤镜部分](https://github.com/LinLshare/egret_demo/tree/master/day11_filter_effect/src)
-- [x] 第十二天：掌握[Egret Engine 2D #时间控制](https://github.com/LinLshare/egret_demo/tree/master/day12_time_controll/src)
+- [x] 第十二天：掌握[Egret Engine 2D #时间控制部分](https://github.com/LinLshare/egret_demo/tree/master/day12_time_controll/src)
+- [ ] 第十三天：掌握[Egret Engine 2D #多媒体部分](https://github.com/LinLshare/egret_demo/tree/master/day13_multimedia/src)
 
 TypeScript 和 JavaScript学习站
 --------
@@ -37,6 +38,7 @@ TypeScript 和 JavaScript学习站
 开发工具
 -------
 - [Texture Merger](http://developer.egret.com/cn/github/egret-docs/tools/TextureMerger/manual/index.html)：Texture Merger 可将零散纹理拼合为整图，同时也可以解析SWF、GIF动画，导出可供Egret使用的配置文件
+- [格式工厂](http://www.pcgeshi.com/)：用于多媒体文件的格式转换
 - [Egret Wing 4.0.0](http://developer.egret.com/cn/github/egret-docs/Wing/update/update400/index.html)：EgretWing是Egret团队基于VSCode开发的编辑器
 - [VS Code](https://code.visualstudio.com/)：微软开源的支持多种编程语言的轻量级代码编辑器
 
