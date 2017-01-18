@@ -14,6 +14,7 @@
 - [x] 第十一天：掌握[Egret Engine 2D #滤镜部分](https://github.com/LinLshare/egret_demo/tree/master/day11_filter_effect/src)
 - [x] 第十二天：掌握[Egret Engine 2D #时间控制部分](https://github.com/LinLshare/egret_demo/tree/master/day12_time_controll/src)
 - [x] 第十三天：掌握[Egret Engine 2D #多媒体部分](https://github.com/LinLshare/egret_demo/tree/master/day13_multimedia/src)
+- [x] 第十四天：掌握[Egret Engine 2D #渲染模式部分](https://github.com/LinLshare/egret_demo/tree/master/day14_render_mode/src)
 
 TypeScript 和 JavaScript学习站
 --------
