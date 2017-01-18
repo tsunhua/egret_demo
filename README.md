@@ -12,7 +12,7 @@
 - [x] 第九天：掌握[Egret Engine 2D #位图纹理部分](https://github.com/LinLshare/egret_demo/tree/master/day09_bitmap_texture/src)
 - [x] 第十天：掌握[Egret Engine 2D #混合模式部分](https://github.com/LinLshare/egret_demo/tree/master/day10_mixed_mode/src)
 - [x] 第十一天：掌握[Egret Engine 2D #滤镜部分](https://github.com/LinLshare/egret_demo/tree/master/day11_filter_effect/src)
-- [ ] 第十二天：掌握[Egret Engine 2D #时间控制](https://github.com/LinLshare/egret_demo/tree/master/day12_time_controll/src)
+- [x] 第十二天：掌握[Egret Engine 2D #时间控制](https://github.com/LinLshare/egret_demo/tree/master/day12_time_controll/src)
 
 TypeScript 和 JavaScript学习站
 --------
