@@ -26,7 +26,7 @@
 
 > **EUI库**
 
-- [ ] 第十九天：掌握[Egret Engine # EUI库 # 入门]()
+- [x] 第十九天：掌握[Egret Engine # EUI库 # 入门]()
 
 
 TypeScript 和 JavaScript学习站

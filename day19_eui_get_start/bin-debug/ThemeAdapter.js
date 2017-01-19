@@ -53,3 +53,4 @@ var ThemeAdapter = (function () {
     return ThemeAdapter;
 }());
 egret.registerClass(ThemeAdapter,'ThemeAdapter',["eui.IThemeAdapter"]);
+//# sourceMappingURL=ThemeAdapter.js.map
