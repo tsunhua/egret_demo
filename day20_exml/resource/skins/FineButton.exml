@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.FineButton" states="up,down,disabled" minHeight="400" minWidth="300"
+        xmlns:e="http://ns.egret.com/eui">
+    <e:Image width="100%" height="100%" scale9Grid="1,3,8,8" alpha.disabled="0.5" source.down="button_down_png"
+             source="button_up_png" />
+    <e:Label id="labelDisplay" top="8" bottom="8" left="8" right="8" size="20" textColor="0xffffff" text="${data.label}"
+             verticalAlign="middle" textAlign="center" />
+    <e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0" top="8" left="8" right="8" bottom="8"/>
+</e:Skin>
