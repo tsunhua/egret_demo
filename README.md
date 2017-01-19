@@ -16,12 +16,14 @@
 - [x] 第十三天：掌握[Egret Engine 2D #多媒体部分](https://github.com/LinLshare/egret_demo/tree/master/day13_multimedia/src)
 - [x] 第十四天：掌握[Egret Engine 2D #渲染模式部分](https://github.com/LinLshare/egret_demo/tree/master/day14_render_mode/src)
 - [x] 第十五天：掌握[Egret Engine 2D #屏幕适配部分](https://github.com/LinLshare/egret_demo/tree/master/day15_screen_adaptation/src)
+- [x] 第十六天：掌握[Egret Engine 2D #调试部分](https://github.com/LinLshare/egret_demo/tree/master/day16_debug/src)
 
 TypeScript 和 JavaScript学习站
 --------
 
 - [TypeScript 和 JavaScript 的区别？ -- 知乎](https://www.zhihu.com/question/25421196)
 - [TypeScript Handbook（中文版）-- gitbooks](https://zhongsp.gitbooks.io/typescript-handbook/content/)
+- [Airbnb JavaScript 代码规范（ES6）](http://www.kancloud.cn/kancloud/javascript-style-guide/43119)
 - [JavaScript教程 -- 廖雪峰的官方网站](http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000) 
 - [ECMAScript 6 入门 -- 阮一峰](http://es6.ruanyifeng.com/)
 - [使用 AMD、CommonJS 及 ES Harmony 编写模块化的 JavaScript](http://justineo.github.io/singles/writing-modular-js/)
@@ -34,6 +36,7 @@ TypeScript 和 JavaScript学习站
 - [Egret Engine 2D Get Started  -- egret.com](http://developer.egret.com/cn/github/egret-docs/Engine2D/getStarted/helloWorld/index.html)
 - [Egret 扩展库](http://developer.egret.com/cn/github/egret-docs/extension/threes/instructions/index.html)
 - [教学示例 --白鹭开发者中心](http://developer.egret.com/cn/example/egret2d/index.html#010-disp-basic)
+- [Egret 最佳实战](http://developer.egret.com/cn/github/egret-docs/Engine2D/debug/performanceOptimization/index.html)
 
 开发工具
 -------
@@ -58,4 +61,3 @@ License
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
-
