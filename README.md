@@ -1,6 +1,8 @@
 我的学习轨迹
 --------
 
+> **Egret Engine 2D**
+
 - [x] 第一天：掌握TypeScript的独有概念，掌握[Egret Engine 2D # 显示对象部分](https://github.com/LinLshare/egret_demo/tree/master/day01_display_object/src)
 - [x] 第二天：掌握[Egret Engine 2D # 显示容器部分](https://github.com/LinLshare/egret_demo/tree/master/day02_display_container/src)
 - [x] 第三天：掌握[Egret Engine 2D #矢量绘图部分](https://github.com/LinLshare/egret_demo/tree/master/day03_vector_drawing/src)
@@ -20,6 +22,13 @@
 - [x] 第十七天：掌握[Egret Engine 2D #调用原生JS](https://github.com/LinLshare/egret_demo/tree/master/day17_call_js/src)
 - [ ] ~~第十八天：掌握[Egret Engine 2D #原生支持与打包发布部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/native/horizontalScreen/index.html)~~
 
+
+
+> **EUI库**
+
+- [ ] 第十九天：掌握[Egret Engine # EUI库 # 入门]()
+
+
 TypeScript 和 JavaScript学习站
 --------
 
@@ -32,6 +41,7 @@ TypeScript 和 JavaScript学习站
 - [Visual Studio Code之常备快捷键 --CSDN](http://blog.csdn.net/u010019717/article/details/50443970)
 - [Egret Wing编辑器快捷键](http://developer.egret.com/cn/github/egret-docs/Wing/editor/code/index.html)
 
+
 白鹭引擎学习站
 --------
 
@@ -40,12 +50,14 @@ TypeScript 和 JavaScript学习站
 - [教学示例 --白鹭开发者中心](http://developer.egret.com/cn/example/egret2d/index.html#010-disp-basic)
 - [Egret 最佳实战](http://developer.egret.com/cn/github/egret-docs/Engine2D/debug/performanceOptimization/index.html)
 
+
 开发工具
 -------
 - [Texture Merger](http://developer.egret.com/cn/github/egret-docs/tools/TextureMerger/manual/index.html)：Texture Merger 可将零散纹理拼合为整图，同时也可以解析SWF、GIF动画，导出可供Egret使用的配置文件
 - [格式工厂](http://www.pcgeshi.com/)：用于多媒体文件的格式转换
 - [Egret Wing 4.0.0](http://developer.egret.com/cn/github/egret-docs/Wing/update/update400/index.html)：EgretWing是Egret团队基于VSCode开发的编辑器
 - [VS Code](https://code.visualstudio.com/)：微软开源的支持多种编程语言的轻量级代码编辑器
+
 
 License
 --------
