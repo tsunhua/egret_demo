@@ -133,6 +133,9 @@ var Main = (function (_super) {
         button.horizontalCenter = 0;
         button.verticalCenter = 0;
         this.addChild(button);
+        var myBtn = new Button();
+        myBtn.labelDisplay.text = "ok";
+        this.addChild(myBtn);
     };
     /**
      * 根据name关键字创建一个Bitmap对象。name属性请参考resources/resource.json配置文件的内容。
