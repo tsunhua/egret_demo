@@ -15,6 +15,7 @@
 - [x] 第十二天：掌握[Egret Engine 2D #时间控制部分](https://github.com/LinLshare/egret_demo/tree/master/day12_time_controll/src)
 - [x] 第十三天：掌握[Egret Engine 2D #多媒体部分](https://github.com/LinLshare/egret_demo/tree/master/day13_multimedia/src)
 - [x] 第十四天：掌握[Egret Engine 2D #渲染模式部分](https://github.com/LinLshare/egret_demo/tree/master/day14_render_mode/src)
+- [x] 第十五天：掌握[Egret Engine 2D #屏幕适配部分](https://github.com/LinLshare/egret_demo/tree/master/day15_screen_adaptation/src)
 
 TypeScript 和 JavaScript学习站
 --------
@@ -26,8 +27,6 @@ TypeScript 和 JavaScript学习站
 - [使用 AMD、CommonJS 及 ES Harmony 编写模块化的 JavaScript](http://justineo.github.io/singles/writing-modular-js/)
 - [Visual Studio Code之常备快捷键 --CSDN](http://blog.csdn.net/u010019717/article/details/50443970)
 - [Egret Wing编辑器快捷键](http://developer.egret.com/cn/github/egret-docs/Wing/editor/code/index.html)
-
-
 
 白鹭引擎学习站
 --------
@@ -42,7 +41,6 @@ TypeScript 和 JavaScript学习站
 - [格式工厂](http://www.pcgeshi.com/)：用于多媒体文件的格式转换
 - [Egret Wing 4.0.0](http://developer.egret.com/cn/github/egret-docs/Wing/update/update400/index.html)：EgretWing是Egret团队基于VSCode开发的编辑器
 - [VS Code](https://code.visualstudio.com/)：微软开源的支持多种编程语言的轻量级代码编辑器
-
 
 License
 --------
@@ -60,3 +58,4 @@ License
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
