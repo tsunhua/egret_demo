@@ -27,7 +27,7 @@
 > **EUI库**
 
 - [x] 第十九天：掌握[Egret Engine # EUI库 # 入门](https://github.com/LinLshare/egret_demo/tree/master/day19_eui_get_start/src)
-- [x] 第十二天：掌握[Egret Engine # EUI库 # EXML基本语法](https://github.com/LinLshare/egret_demo/tree/master/day20_exml/src)
+- [x] 第二十天：掌握[Egret Engine # EUI库 # EXML基本语法](https://github.com/LinLshare/egret_demo/tree/master/day20_exml/src)
 
 
 TypeScript 和 JavaScript学习站
