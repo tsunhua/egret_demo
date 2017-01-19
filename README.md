@@ -17,6 +17,8 @@
 - [x] 第十四天：掌握[Egret Engine 2D #渲染模式部分](https://github.com/LinLshare/egret_demo/tree/master/day14_render_mode/src)
 - [x] 第十五天：掌握[Egret Engine 2D #屏幕适配部分](https://github.com/LinLshare/egret_demo/tree/master/day15_screen_adaptation/src)
 - [x] 第十六天：掌握[Egret Engine 2D #调试部分](https://github.com/LinLshare/egret_demo/tree/master/day16_debug/src)
+- [x] 第十七天：掌握[Egret Engine 2D #调用原生JS](https://github.com/LinLshare/egret_demo/tree/master/day17_call_js/src)
+- [ ] ~~第十八天：掌握[Egret Engine 2D #原生支持与打包发布部分](http://developer.egret.com/cn/github/egret-docs/Engine2D/native/horizontalScreen/index.html)~~
 
 TypeScript 和 JavaScript学习站
 --------
