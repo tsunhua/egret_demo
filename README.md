@@ -1,3 +1,4 @@
+
 我的学习轨迹
 --------
 
@@ -28,7 +29,8 @@
 
 - [x] 第十九天：掌握[Egret Engine # EUI库 # 入门](https://github.com/LinLshare/egret_demo/tree/master/day19_eui_get_start/src)
 - [x] 第二十天：掌握[Egret Engine # EUI库 # EXML基本语法](https://github.com/LinLshare/egret_demo/tree/master/day20_exml/src)
-- [ ] 第二十一天：掌握[Egret Engine # EUI库 # 皮肤](https://github.com/LinLshare/egret_demo/tree/master/day21_skin/src)
+- [x] 第二十一天：掌握[Egret Engine # EUI库 # 皮肤](https://github.com/LinLshare/egret_demo/tree/master/day21_skin/src)
+
 
 TypeScript 和 JavaScript学习站
 --------
@@ -43,6 +45,7 @@ TypeScript 和 JavaScript学习站
 - [Egret Wing编辑器快捷键](http://developer.egret.com/cn/github/egret-docs/Wing/editor/code/index.html)
 
 
+
 白鹭引擎学习站
 --------
 
@@ -52,12 +55,14 @@ TypeScript 和 JavaScript学习站
 - [Egret 最佳实战](http://developer.egret.com/cn/github/egret-docs/Engine2D/debug/performanceOptimization/index.html)
 
 
+
 开发工具
 -------
 - [Texture Merger](http://developer.egret.com/cn/github/egret-docs/tools/TextureMerger/manual/index.html)：Texture Merger 可将零散纹理拼合为整图，同时也可以解析SWF、GIF动画，导出可供Egret使用的配置文件
 - [格式工厂](http://www.pcgeshi.com/)：用于多媒体文件的格式转换
 - [Egret Wing 4.0.0](http://developer.egret.com/cn/github/egret-docs/Wing/update/update400/index.html)：EgretWing是Egret团队基于VSCode开发的编辑器
 - [VS Code](https://code.visualstudio.com/)：微软开源的支持多种编程语言的轻量级代码编辑器
+
 
 
 License
