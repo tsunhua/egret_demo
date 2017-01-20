@@ -30,6 +30,7 @@
 - [x] 第十九天：掌握[Egret Engine # EUI库 # 入门](https://github.com/LinLshare/egret_demo/tree/master/day19_eui_get_start/src)
 - [x] 第二十天：掌握[Egret Engine # EUI库 # EXML基本语法](https://github.com/LinLshare/egret_demo/tree/master/day20_exml/src)
 - [x] 第二十一天：掌握[Egret Engine # EUI库 # 皮肤](https://github.com/LinLshare/egret_demo/tree/master/day21_skin/src)
+- [x] 第二十二天：掌握[Egret Engine # EUI库 # 自动布局](https://github.com/LinLshare/egret_demo/tree/master/day22_auto_layout/src)
 
 
 TypeScript 和 JavaScript学习站
