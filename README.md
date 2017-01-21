@@ -33,7 +33,8 @@
 - [x] 第二十一天：掌握[Egret Engine # EUI库 # 皮肤](https://github.com/LinLshare/egret_demo/tree/master/day21_skin/src)
 - [x] 第二十二天：掌握[Egret Engine # EUI库 # 自动布局](https://github.com/LinLshare/egret_demo/tree/master/day22_auto_layout/src)
 - [x] 第二十三天：掌握[Egret Engine # EUI库 # 使用布局类](https://github.com/LinLshare/egret_demo/tree/master/day23_use_layout/src)
-- [x] 第二十四天：掌握[Egret Engine # EUI库 # 文本](https://github.com/LinLshare/egret_demo/tree/master/day24_controls/src)
+- [x] 第二十四天：掌握[Egret Engine # EUI库 # 控件](https://github.com/LinLshare/egret_demo/tree/master/day24_controls/src)
+- [x] 第二十五天：掌握[Egret Engine # EUI库 # 容器](https://github.com/LinLshare/egret_demo/tree/master/day25_container/src)
 
 
 
