@@ -72,6 +72,10 @@ TypeScript 和 JavaScript学习站
 - [VS Code](https://code.visualstudio.com/)：微软开源的支持多种编程语言的轻量级代码编辑器
 
 
+开源实战项目
+-------
+- [2048小游戏](https://github.com/f111fei/2048egret)
+
 
 License
 --------
