@@ -212,16 +212,31 @@ class LinkLogic {
 	/**
 	 * 判断地图上两点是否可以交换
 	 */
-	public static isHavaLineByIndex(p1: number, p2: number): boolean {
-		let p1_id = 
+	public static isHaveLineByIndex(p1: number, p2: number): boolean {
+		let p1n = p1;
+		let p2n = p2;
+		let p1_id = GameData.mapData[Math.floor(p1 / GameData.maxColumn)][p1 % GameData.maxRow];
+		let p2_id = GameData.mapData[Math.floor(p2 / GameData.maxColumn)][p2 % GameData.maxRow];
+
+		GameData.mapData[Math.floor(p1 / GameData.maxColumn)][p1 % GameData.maxRow] = p2_id;
+		GameData.mapData[Math.floor(p2 / GameData.maxColumn)][p2 % GameData.maxRow] = p1_id;
+
+		if (LinkLogic.isHaveLine()) {
+			GameData.elements[p1_id].location = p2n;
+			GameData.elements[p2_id].location = p1n;
+			return true;
+		} else {
+			GameData.mapData[Math.floor(p1 / GameData.maxColumn)][p1 % GameData.maxRow] = p1_id;
+			GameData.mapData[Math.floor(p2 / GameData.maxColumn)][p2 % GameData.maxRow] = p2_id;
+		}
 		return false;
 	}
 
-	public static getElementByIndex(index: number): GameElement {
-		let x: number = Math.floor(index / GameData.maxColumn);
-		let y: number = index % GameData.maxRow;
-		return GameData.mapData[x][y];
-	}
+	// public static getElementByIndex(index: number): GameElement {
+	// 	let x: number = Math.floor(index / GameData.maxColumn);
+	// 	let y: number = index % GameData.maxRow;
+	// 	return GameData.elements[GameData.mapData[x][y]];
+	// }
 
 	/**
 	 * 判断在地图某点是否有元素与之类型相同

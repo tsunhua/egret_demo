@@ -1,4 +1,4 @@
 class GameElement extends BaseElement {
 	public id: number = 0;
-	public location: string = "";
+	public location: number = 0;
 }
