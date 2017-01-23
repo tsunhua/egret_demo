@@ -39,6 +39,10 @@
 - [ ] ~~第二十七天：掌握[Egret Engine # EUI库 # 进阶技巧](http://developer.egret.com/cn/github/egret-docs/extension/EUI/advancedSkills/tool/index.html)~~
 
 
+> **实战**
+
+- [ ] 第二十八天：[消除类游戏开发](https://github.com/LinLshare/egret_demo/tree/master/day28_elimination_game/src)
+
 
 TypeScript 和 JavaScript学习站
 --------
@@ -72,9 +76,11 @@ TypeScript 和 JavaScript学习站
 - [VS Code](https://code.visualstudio.com/)：微软开源的支持多种编程语言的轻量级代码编辑器
 
 
+
 开源实战项目
 -------
 - [2048小游戏](https://github.com/f111fei/2048egret)
+
 
 
 License
