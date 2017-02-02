@@ -44,6 +44,7 @@
 - [ ] 第二十八天：[消除类游戏开发](https://github.com/LinLshare/egret_demo/tree/master/day28_elimination_game/src)
 
 
+
 TypeScript 和 JavaScript学习站
 --------
 
@@ -62,6 +63,7 @@ TypeScript 和 JavaScript学习站
 --------
 
 - [Egret Engine 2D Get Started  -- egret.com](http://developer.egret.com/cn/github/egret-docs/Engine2D/getStarted/helloWorld/index.html)
+- [**Egret 引擎基础入门**](http://yuedu.baidu.com/ebook/bb0631226f1aff00bfd51e08)
 - [Egret 扩展库](http://developer.egret.com/cn/github/egret-docs/extension/threes/instructions/index.html)
 - [教学示例 --白鹭开发者中心](http://developer.egret.com/cn/example/egret2d/index.html#010-disp-basic)
 - [Egret 最佳实战](http://developer.egret.com/cn/github/egret-docs/Engine2D/debug/performanceOptimization/index.html)

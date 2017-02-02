@@ -2,7 +2,7 @@
  * 道具逻辑
  */
 class PropLogic {
-	public static useProp0(propType: PropType, location: number) {
+ 	public static useProp0(propType: PropType, location: number) {
 		switch (propType) {
 			case PropType.chanZi:
 				PropLogic.chanZi(location);
