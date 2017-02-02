@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GamePanelSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="480" height="800" x="0" y="0" fillColor="0xfdf15e"/>
+	<e:Button id="aBtn" label="A" y="521" anchorOffsetX="0" width="259" anchorOffsetY="0" height="43" horizontalCenter="0"/>
+	<e:Label id="mycurNumTxt" text=" 当前分数：0" textColor="0x000000" horizontalCenter="0" top="99"/>
+	<e:Label id="quesTxt" text="3 + 3 = ?" y="193" textColor="0x000000" horizontalCenter="0"/>
+	<e:Label id="timeTxt" text="0 : 0 : 0" y="149" textColor="0x000000" horizontalCenter="0" bold="true"/>
+	<e:Button id="bBtn" label="B " y="580" anchorOffsetX="0" width="259" anchorOffsetY="0" height="43" horizontalCenter="0.5"/>
+	<e:Button id="cBtn" label="C" y="639" anchorOffsetX="0" width="259" anchorOffsetY="0" height="43" horizontalCenter="0.5"/>
+	<e:Button id="resetBtn" label="重置" anchorOffsetX="0" width="259" anchorOffsetY="0" height="43" horizontalCenter="0.5" bottom="54"/>
+</e:Skin>

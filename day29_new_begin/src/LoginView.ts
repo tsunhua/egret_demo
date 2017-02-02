@@ -4,7 +4,7 @@ class LoginView extends eui.Component {
 	private psdTxt: eui.TextInput;
 	private loginBtn: eui.Button;
 	private registerBtn: eui.Button;
-
+	
 	public constructor() {
 		super();
 		this.skinName = "Login"
