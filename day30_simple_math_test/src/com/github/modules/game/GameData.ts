@@ -32,4 +32,33 @@ class GameData {
 
 		return obj;
 	}
+
+	public static getResult(score: number): string {
+
+		if (score <= 10) {
+			return "看来你的算术已经连小学生都不如";
+		} else if (score > 10 && score <= 20) {
+			return "看似还行，还是回去练练吧";
+		} else if (score > 20 && score <= 40) {
+			return "数学不错喔，不要骄傲。你已经击败了很多人";
+		} else if (score > 40 && score < 60) {
+			return "数学心算高手，击败了全国80%的人";
+		} else {
+			return "我已经是算术大神，击败了全国90%的人，谁不服来挑战我";
+		}
+	}
+
+	public static getTitle(score: number): string {
+		if (score <= 10) {
+			return "傻逼";
+		} else if (score > 10 && score <= 20) {
+			return "小学生";
+		} else if (score > 20 && score <= 40) {
+			return "心算中级生";
+		} else if (score > 40 && score < 60) {
+			return "算术大牛";
+		} else {
+			return "精算师";
+		}
+	}
 }

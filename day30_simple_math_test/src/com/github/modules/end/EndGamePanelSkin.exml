@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EndGamePanelSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+<e:Rect width="480" height="800" x="0" y="0" fillColor="0xfdf15e"/>
+	<e:Label id="scoreTxt" text="得分： 0" x="171.5" y="107.45" textColor="0x000000"/>
+	<e:Label id="titleTxt" text="头衔： 高手" x="150" y="174.12" textColor="0x000000"/>
+	<e:Label id="descTxt" text="看来你大脑不行啊" y="242.6" textColor="0x000000" horizontalCenter="0" textAlign="center" left="90" right="90" size="24"/>
+	<e:Image  x="159.54" y="310.3" anchorOffsetX="0" anchorOffsetY="0" source="figure_png"/>
+	<e:Button id="againBtn" label="再来一次" anchorOffsetX="0" horizontalCenter="1.5" left="77" right="74" width="320" height="56" bottom="262"/>
+	<e:Button id="shareBtn" label="分享到朋友圈" anchorOffsetX="0" horizontalCenter="1.5" left="77" right="74" width="320" height="56" bottom="181"/>
+</e:Skin>

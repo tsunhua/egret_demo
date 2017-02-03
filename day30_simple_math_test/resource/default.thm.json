@@ -28,6 +28,9 @@
     "resource/eui_skins/TextInputSkin.exml",
     "resource/eui_skins/ToggleSwitchSkin.exml",
     "resource/eui_skins/VScrollBarSkin.exml",
-    "resource/eui_skins/VSliderSkin.exml"
+    "resource/eui_skins/VSliderSkin.exml",
+    "src/com/github/modules/end/EndGamePanelSkin.exml",
+    "src/com/github/modules/game/GamePanelSkin.exml",
+    "src/com/github/modules/welcome/WelcomePanelSkin.exml"
   ]
 }

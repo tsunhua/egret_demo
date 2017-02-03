@@ -41,7 +41,9 @@
 
 > **实战**
 
-- [ ] 第二十八天：[消除类游戏开发](https://github.com/LinLshare/egret_demo/tree/master/day28_elimination_game/src)
+- [ ] ~~第二十八天：[消除类游戏开发](https://github.com/LinLshare/egret_demo/tree/master/day28_elimination_game/src)~~
+- [x] 第二十九天：[新的开始](https://github.com/LinLshare/egret_demo/tree/master/day29_new_begin/src)
+- [x] 第三十天：[狐狸计算题小游戏](https://github.com/LinLshare/egret_demo/tree/master/day30_simple_math_test/src)
 
 
 
