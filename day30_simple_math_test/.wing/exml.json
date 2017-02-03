@@ -1,5 +1,5 @@
 {
   "global": {
-    "globalAutoLayerMarkEnable": true
+    "globalAutoLayerMarkEnable": false
   }
 }

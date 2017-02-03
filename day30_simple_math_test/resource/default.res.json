@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,start_game_btn_press_png,start_game_btn_png,bg_welcome_jpg,figure_png,share_tip_png,share_jpg",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,egret_icon_png,description_json,start_game_btn_press_png,start_game_btn_png,bg_welcome_jpg,figure_png,share_tip_png,share_jpg,loading_gif,btn_yellow_png,btn_yellow_press_png",
 			"name": "preload"
 		}
 	],
@@ -132,39 +132,64 @@
 			"name": "egret_icon_png"
 		},
 		{
-			"name": "description_json",
+			"url": "config/description.json",
 			"type": "json",
-			"url": "config/description.json"
+			"name": "description_json"
 		},
 		{
-			"name": "start_game_btn_press_png",
+			"url": "assets/start_game_btn_press.png",
 			"type": "image",
-			"url": "assets/start_game_btn_press.png"
+			"name": "start_game_btn_press_png"
 		},
 		{
-			"name": "start_game_btn_png",
+			"url": "assets/start_game_btn.png",
 			"type": "image",
-			"url": "assets/start_game_btn.png"
+			"name": "start_game_btn_png"
 		},
 		{
-			"name": "bg_welcome_jpg",
+			"url": "assets/bg_welcome.jpg",
 			"type": "image",
-			"url": "assets/bg_welcome.jpg"
+			"name": "bg_welcome_jpg"
 		},
 		{
-			"name": "figure_png",
+			"url": "assets/figure.png",
 			"type": "image",
-			"url": "assets/figure.png"
+			"name": "figure_png"
 		},
 		{
-			"name": "share_tip_png",
+			"url": "assets/share_tip.png",
 			"type": "image",
-			"url": "assets/share_tip.png"
+			"name": "share_tip_png"
 		},
 		{
-			"name": "share_jpg",
+			"url": "assets/share.jpg",
 			"type": "image",
-			"url": "assets/share.jpg"
+			"name": "share_jpg"
+		},
+		{
+			"url": "assets/loading.gif",
+			"type": "image",
+			"name": "loading_gif"
+		},
+		{
+			"url": "assets/btn_yellow.png",
+			"type": "image",
+			"name": "btn_yellow_png"
+		},
+		{
+			"url": "assets/btn_yellow_press.png",
+			"type": "image",
+			"name": "btn_yellow_press_png"
+		},
+		{
+			"url": "assets/loading.png",
+			"type": "image",
+			"name": "loading_png"
+		},
+		{
+			"url": "assets/loading.json",
+			"type": "json",
+			"name": "loading_json"
 		}
 	]
 }

@@ -5,6 +5,6 @@
 	<e:Label id="titleTxt" text="头衔： 高手" x="150" y="174.12" textColor="0x000000"/>
 	<e:Label id="descTxt" text="看来你大脑不行啊" y="242.6" textColor="0x000000" horizontalCenter="0" textAlign="center" left="90" right="90" size="24"/>
 	<e:Image  x="159.54" y="310.3" anchorOffsetX="0" anchorOffsetY="0" source="figure_png"/>
-	<e:Button id="againBtn" label="再来一次" anchorOffsetX="0" horizontalCenter="1.5" left="77" right="74" width="320" height="56" bottom="262"/>
-	<e:Button id="shareBtn" label="分享到朋友圈" anchorOffsetX="0" horizontalCenter="1.5" left="77" right="74" width="320" height="56" bottom="181"/>
+	<e:Button id="againBtn" label="再来一次" anchorOffsetX="0" horizontalCenter="1.5" left="77" right="74" width="320" height="56" bottom="262" skinName="CommonButtonSkin"/>
+	<e:Button id="shareBtn" label="分享到朋友圈" anchorOffsetX="0" horizontalCenter="1.5" left="77" right="74" width="320" height="56" bottom="181" skinName="CommonButtonSkin"/>
 </e:Skin>

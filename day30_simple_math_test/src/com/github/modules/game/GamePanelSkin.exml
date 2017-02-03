@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <e:Skin class="GamePanelSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
 	<e:Rect width="480" height="800" x="0" y="0" fillColor="0xfdf15e"/>
-	<e:Button id="aBtn" label="A" anchorOffsetX="0" width="320" anchorOffsetY="0" height="56" bottom="275" horizontalCenter="1"/>
+	<e:Button id="aBtn" label="A" anchorOffsetX="0" width="320" anchorOffsetY="0" height="56" bottom="275" horizontalCenter="1" skinName="CommonButtonSkin"/>
 	<e:Label id="mycurNumTxt" text=" 当前分数：0" textColor="0x000000" horizontalCenter="0" top="99"/>
 	<e:Label id="quesTxt" text="3 + 3 = ?" y="193" textColor="0x000000" horizontalCenter="0"/>
 	<e:Label id="timeTxt" text="0 : 0 : 0" y="149" textColor="0x000000" horizontalCenter="0" bold="true"/>
-	<e:Button id="bBtn" label="B " anchorOffsetX="0" width="320" anchorOffsetY="0" height="56" bottom="203" horizontalCenter="0"/>
-	<e:Button id="cBtn" label="C" anchorOffsetX="0" width="320" anchorOffsetY="0" height="56" bottom="129" horizontalCenter="0"/>
-	<e:Button id="resetBtn" label="重置" anchorOffsetX="0" width="320" anchorOffsetY="0" height="56" bottom="54" horizontalCenter="0"/>
+	<e:Button id="bBtn" label="B " anchorOffsetX="0" width="320" anchorOffsetY="0" height="56" bottom="203" horizontalCenter="0" skinName="CommonButtonSkin"/>
+	<e:Button id="cBtn" label="C" anchorOffsetX="0" width="320" anchorOffsetY="0" height="56" bottom="129" horizontalCenter="0" skinName="CommonButtonSkin"/>
+	<e:Button id="resetBtn" label="重置" anchorOffsetX="0" width="320" anchorOffsetY="0" height="56" bottom="54" horizontalCenter="0" skinName="CommonButtonSkin"/>
 </e:Skin>

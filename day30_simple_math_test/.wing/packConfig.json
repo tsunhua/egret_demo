@@ -1,0 +1,9 @@
+{
+    "useClip": true,
+    "maxImageWidth": 1024,
+    "maxImageHeight": 1024,
+    "defaultResPath": "f:\\egret\\egret_demo\\day30_simple_math_test\\resource\\default.res.json",
+    "packGroups": {
+        "preload": true
+    }
+}

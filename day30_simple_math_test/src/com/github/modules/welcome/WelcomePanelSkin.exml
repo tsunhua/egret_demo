@@ -3,12 +3,6 @@
     <e:Rect width="480" height="800" x="0" y="0"  fillColor="0xfdf15e"/>
     <e:Label text="狐狸算术题  考你心快" y="61.33" horizontalCenter="0.5"  textColor="0x000000" fontFamily="Microsoft YaHei" size="32"/>
     <e:Image source="bg_welcome_jpg"  x="129" y="124"/>
-	<e:Button id="startBtn" label="" anchorOffsetX="0" width="201" anchorOffsetY="0" height="65" horizontalCenter="0" bottom="181">
-		<e:skinName>
-			<e:Skin states="up,down,disabled">
-			<e:Image width="100%" height="100%" source="start_game_btn_png" source.down="start_game_btn_press_png"/>
-			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
-			</e:Skin>
-		</e:skinName>
+	<e:Button id="startBtn" label="开始游戏" anchorOffsetX="0" width="201" anchorOffsetY="0" height="65" horizontalCenter="0" bottom="181" skinName="CommonButtonSkin">
 	</e:Button>
 </e:Skin>
