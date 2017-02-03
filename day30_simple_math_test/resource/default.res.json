@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,start_game_btn_press_png,start_game_btn_png,bg_welcome_jpg,figure_png",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,start_game_btn_press_png,start_game_btn_png,bg_welcome_jpg,figure_png,share_tip_png,share_jpg",
 			"name": "preload"
 		}
 	],
@@ -155,6 +155,16 @@
 			"name": "figure_png",
 			"type": "image",
 			"url": "assets/figure.png"
+		},
+		{
+			"name": "share_tip_png",
+			"type": "image",
+			"url": "assets/share_tip.png"
+		},
+		{
+			"name": "share_jpg",
+			"type": "image",
+			"url": "assets/share.jpg"
 		}
 	]
 }
