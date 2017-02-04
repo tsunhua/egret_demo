@@ -2,7 +2,7 @@ var GamePanel = (function (_super) {
     __extends(GamePanel, _super);
     function GamePanel() {
         _super.call(this);
-        this.totalTime = 6;
+        this.totalTime = 4;
         this.score = 0;
         this.skinName = "GamePanelSkin";
     }

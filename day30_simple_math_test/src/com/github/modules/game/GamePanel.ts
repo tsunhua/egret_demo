@@ -8,7 +8,7 @@ class GamePanel extends BasePanel {
 	private resetBtn: eui.Button;
 
 	private timer: egret.Timer;
-	private totalTime: number = 6;
+	private totalTime: number = 4;
 
 	private isSelected: boolean;
 	private curQuesData: Object;
