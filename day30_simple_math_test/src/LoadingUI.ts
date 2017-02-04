@@ -34,28 +34,31 @@ class LoadingUI extends egret.Sprite {
         this.createView();
     }
 
-    private textField: egret.TextField;
-    // private mcLoading: egret.MovieClip;
+    // private textField: egret.TextField;
+    private mcLoading: egret.MovieClip;
 
     private createView(): void {
-        this.textField = new egret.TextField();
-        this.addChild(this.textField);
-        this.textField.textColor = 0x000000;
-        this.textField.y = 300;
-        this.textField.width = 480;
-        this.textField.height = 100;
-        this.textField.textAlign = "center";
-        // var data = RES.getRes("loading_json");
-        // var textr = RES.getRes("loading_png");
-        // var mcFactory: egret.MovieClipDataFactory = new egret.MovieClipDataFactory(data, textr);
-        // this.mcLoading = new egret.MovieClip(mcFactory.generateMovieClipData("loading"));
-        // this.mcLoading.x = 200;
-        // this.mcLoading.y = 200;
-        // this.addChild(this.mcLoading); 
-        // this.mcLoading.play(-1);
+        // this.textField = new egret.TextField();
+        // this.addChild(this.textField);
+        // this.textField.textColor = 0x000000;
+        // this.textField.y = 300;
+        // this.textField.width = 480;
+        // this.textField.height = 100;
+        // this.textField.textAlign = "center";
+        var data = RES.getRes("loading_json");
+        var textr = RES.getRes("loading_png");
+        var mcFactory: egret.MovieClipDataFactory = new egret.MovieClipDataFactory(data, textr);
+        this.mcLoading = new egret.MovieClip(mcFactory.generateMovieClipData("loading"));
+        this.mcLoading.x = 200;
+        this.mcLoading.y = 200;
+        this.addChild(this.mcLoading);
+        this.mcLoading.play(-1);
     }
 
     public setProgress(current: number, total: number): void {
-        this.textField.text = `Loading...${current}/${total}`;
+        // this.textField.text = `Loading...${current}/${total}`;
+        if(current == total){
+            this.mcLoading.stop();
+        }
     }
 }

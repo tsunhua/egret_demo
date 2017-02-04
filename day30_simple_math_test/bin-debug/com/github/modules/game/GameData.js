@@ -8,18 +8,21 @@ var GameData = (function () {
         var b = Math.ceil(Math.random() * ran);
         var result = a + b;
         var resultA = result - Math.ceil(Math.ceil(result * 0.3) * Math.random());
-        // var resultB: number = result - Math.ceil(Math.ceil(result * 0.3) * Math.random());
-        var resultB = result + 10;
-        // if (result / 10 > 0) {
-        // 	var gewei: number = result % 10;
-        // 	resultA = resultA / 10 * 10 + gewei;
-        // 	if (resultA == result) {
-        // 		resultA += 10;
-        // 	}
-        // 	if (resultA == resultB) {
-        // 		resultA += 10;
-        // 	}
-        // }
+        var resultB;
+        if (result <= 10) {
+            resultB = result - Math.ceil(Math.ceil(result * 0.3) * Math.random());
+        }
+        else {
+            if (Math.ceil(10 * Math.random()) % 2 == 0) {
+                resultB = result - 10;
+            }
+            else {
+                resultB = result + 10;
+            }
+        }
+        if (resultB == resultA) {
+            resultB += 10;
+        }
         var array = [];
         var rand = Math.random();
         if (rand < 0.5) {
